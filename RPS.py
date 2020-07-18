@@ -3,7 +3,7 @@ print('Welcome to Rock Paper Scissors game')
 user=0
 computer=0
 selection=['Rock','Paper','Scissors']
-for n in range(1,3):
+for n in range(1,4):
     computerChoice=random.choice(selection)
     userChoice=input('Enter u r choice')
     if computerChoice=='Rock' and userChoice=='Rock':
