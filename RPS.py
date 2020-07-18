@@ -34,7 +34,7 @@ for n in range(1,3):
         print('Computer Points:'+str(computer)+'')
     elif computerChoice=='Scissors' and userChoice=='Rock':
         print('The computer has chosen'+computerChoice+'')
-        computer=computer+1
+        user=user+1
         print('User points:'+str(user)+'')
         print('Computer Points:'+str(computer)+'')
     elif computerChoice=='Scissors' and userChoice=='Paper':
