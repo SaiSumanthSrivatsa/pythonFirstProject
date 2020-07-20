@@ -5,7 +5,7 @@ computer=0
 selection=['Rock','Paper','Scissors']
 for n in range(1,4):
     computerChoice=random.choice(selection)
-    userChoice=input('Enter u r choice')
+    userChoice=input('Enter u r choice: ')
     if computerChoice=='Rock' and userChoice=='Rock':
         print('Both chosen the same')
     elif computerChoice=='Rock' and userChoice=='Scissors':
